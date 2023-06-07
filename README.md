@@ -15,6 +15,8 @@
 
 ## Usage
 
+Do not use, it is only for testing purposes right now.
+
 ## Contributions
 
 ## Tests

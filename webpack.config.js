@@ -6,6 +6,7 @@ module.exports = {
         path: path.resolve(__dirname, "dist"),
         filename: "index.js",
         libraryTarget: "commonjs2",
+        pathinfo: true,
     },
     module: {
         rules: [
@@ -16,6 +17,7 @@ module.exports = {
                     loader: "babel-loader",
                 },
             },
+            { test: /\.css$/, use: "css-loader" },
         ],
     },
     resolve: {
@@ -24,4 +26,5 @@ module.exports = {
     externals: {
         react: "commonjs react",
     },
+    devtool: "source-map",
 };

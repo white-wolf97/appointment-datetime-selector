@@ -38,6 +38,7 @@
         "babel-preset-env": "^1.7.0",
         "babel-preset-react": "^6.24.1",
         "bootstrap": "^5.2.3",
+        "css-loader": "^6.7.4",
         "eslint": "^8.41.0",
         "eslint-config-prettier": "^8.8.0",
         "eslint-import-resolver-alias": "^1.1.2",
@@ -54,6 +55,7 @@
         "webpack-cli": "^5.1.1"
     },
     "dependencies": {
+        "date-fns": "^2.30.0",
         "react-multi-date-picker": "^4.0.0"
     }
 }
